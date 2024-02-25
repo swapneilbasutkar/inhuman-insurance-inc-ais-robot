@@ -58,3 +58,5 @@ For more information, do not forget to check out the following:
 - [Robocorp Documentation -site](https://robocorp.com/docs)
 - [Portal for more examples](https://robocorp.com/portal)
 - Follow our main [robocorp -repository](https://github.com/robocorp/robocorp) as it is the main location where we developed the libraries and the framework.
+
+![image](https://github.com/swapneilbasutkar/inhuman-insurance-inc-ais-robot/assets/26560247/58f98c53-4164-47b5-9349-ab6ea5bea406)
