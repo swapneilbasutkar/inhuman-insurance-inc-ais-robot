@@ -1,8 +1,8 @@
+from robocorp import workitems
 from robocorp.tasks import task
 from RPA.HTTP import HTTP
 from RPA.JSON import JSON
 from RPA.Tables import Tables
-from robocorp import workitems
 
 http = HTTP()
 json = JSON()
@@ -79,8 +79,3 @@ def save_work_item_payloads(payloads):
     for payload in payloads:
         variables = dict(traffic_data=payload)
         workitems.outputs.create(variables)
-
-@task
-def consume_traffic_data():
-    """Consumes traffic data work items."""
-    print("consume")

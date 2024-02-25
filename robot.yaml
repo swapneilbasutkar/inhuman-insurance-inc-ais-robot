@@ -3,9 +3,9 @@
 
 tasks:
   Produce data:
-    shell: python -m robocorp.tasks run tasks.py -t produce_traffic_data
+    shell: python -m robocorp.tasks run producer.py
   Consume data:
-    shell: python -m robocorp.tasks run tasks.py -t consume_traffic_data
+    shell: python -m robocorp.tasks run consumer.py
 
 environmentConfigs:
   - environment_windows_amd64_freeze.yaml
